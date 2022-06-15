@@ -23,6 +23,12 @@
            "patterns": ["bye bye", "Nice to chat with you", "Bye", "See you later buddy", "Goodbye"],
            "responses": [ "bye bye, thanks for reaching", "Have a nice day there", "See you later"],
            "context": [""]
-       }
+       },
+        {"tag": "accommodation",
+         "patterns": ["accomodation","hotel", "hostel", "resort", "lodging", "inn", "auberge", "hostelry"],
+         "responses": ["Do you want the premium accommodation or is a basic one enough?"],
+         "context": [""]
+
+        }
     ]
 }

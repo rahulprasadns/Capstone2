@@ -60,7 +60,7 @@ def chatbot_response(msg):
     res = getResponse(ints, intents)
     return res
     
-#for i in range(5):
-  # text = input("You : ")
-  # print("Bot : ",chatbot_response(text))
+for i in range(5):
+    text = input("You : ")
+    print("Bot : ",chatbot_response(text))
 

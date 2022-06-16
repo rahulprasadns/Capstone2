@@ -72,8 +72,8 @@ const Header = () => {
         <Widget
           handleNewUserMessage={handleNewUserMessage}
           profileAvatar={'https://i.imgur.com/7jH4Kve.png'}
-          title="My new awesome title"
-          subtitle="And my cool subtitle"
+          title="Hello User"
+          subtitle="Welcome to Virtual Travel Agent"
         />
       </div>
         </>

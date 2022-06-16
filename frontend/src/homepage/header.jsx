@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import './header.css';
 import { Widget, addResponseMessage } from 'react-chat-widget';
 
+import 'react-chat-widget/lib/styles.css';
+
 const Header = () => {
 
     useEffect(() => {

@@ -9,3 +9,4 @@ nltk
 keras
 scipy
 spacy
+flask

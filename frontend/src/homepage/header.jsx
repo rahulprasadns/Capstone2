@@ -1,19 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import './header.css';
-import { Widget, addResponseMessage } from 'react-chat-widget';
 
 import 'react-chat-widget/lib/styles.css';
 
 const Header = () => {
-
-    useEffect(() => {
-        addResponseMessage('Welcome to this **awesome** chat!');
-    }, []);
-
-    const handleNewUserMessage = (newMessage) => {
-        console.log(`New message incoming! ${newMessage}`);
-        // Now send the message throught the backend API
-    };
 
     return (
         <>
@@ -69,12 +59,6 @@ const Header = () => {
                 <h3>An app that changes travel and chat experience</h3>
             </div>
             <div className="App">
-        <Widget
-          handleNewUserMessage={handleNewUserMessage}
-          profileAvatar={'https://i.imgur.com/7jH4Kve.png'}
-          title="Hello User"
-          subtitle="Welcome to Virtual Travel Agent"
-        />
       </div>
         </>
     );

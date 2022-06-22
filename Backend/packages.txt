@@ -1,0 +1,13 @@
+numpy
+pandas
+nlp
+matplotlib
+sklearn
+tensorflow
+nltk
+keras
+scipy
+spacy
+flask
+rasa-nlu
+rasa-core

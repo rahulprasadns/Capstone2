@@ -3,10 +3,11 @@ pandas
 nlp
 matplotlib
 sklearn
-rasa
 tensorflow
 nltk
 keras
 scipy
 spacy
 flask
+rasa-nlu
+rasa-core

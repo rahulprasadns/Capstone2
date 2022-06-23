@@ -18,7 +18,6 @@ const Homepage = () => {
         <div className="homepage">
             <Header />
             <Widget
-                color="green"
                 handleNewUserMessage={handleNewUserMessage}
                 profileAvatar={'https://i.imgur.com/7jH4Kve.png'}
                 title="Hello User"

@@ -6,11 +6,7 @@
     height: 100%;
 }
 
-.react-chatbot-kit-chat-bot-message {
-    background-color: rgba(84,58,183,1) !important;
-}
-
-.rcw-conversation-container > .rcw-header {
+/* .rcw-conversation-container > .rcw-header {
     background-color:#5f7fb6;
   }
 
@@ -21,7 +17,7 @@
 
 .rcw-launcher {
     background-color: rgba(84,58,183,1) !important;
-}
+} */
 
 .video-bg > video {
     width: 100%;

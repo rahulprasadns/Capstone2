@@ -1,19 +1,21 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './header.css';
 
-import 'react-chat-widget/lib/styles.css';
+const Header = (props) => {
 
-const Header = () => {
+    useEffect(() => {console.log(props)}, [props]);
+    console.log(props);
 
     return (
         <>
             <div className="header">
                 <div className="toggle-button">
+                <p> Hello Rahul   |</p>
                     <p> Normal User </p>
                     <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
                     <p> Premium User </p>
                 </div>
-                <div className="inner-header flex">
+                <div className="inner-header">
                     <svg
                         className="logo"
                         baseProfile="tiny"
@@ -57,6 +59,9 @@ const Header = () => {
 
             <div className="content flex">
                 <h3>An app that changes travel and chat experience</h3>
+            </div>
+            <div className="content flex">
+                <h4>{props.chatopen? 'Chat is live': ''}</h4>
             </div>
             <div className="App">
       </div>

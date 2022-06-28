@@ -20,19 +20,22 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgb(92, 128, 194) 100%);
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgb(92, 128, 194) 100%); */
   color:white;
 }
 .logo {
   width:50px;
-  fill:white;
+  fill:rgb(111, 147, 245);
   padding-right:15px;
   display:inline-block;
-  vertical-align: middle;
+  left: 30px;
 }
 
 .inner-header {
-  height:35vh;
+  height:45vh;
   width:100%;
   margin: 0;
   padding: 0;
@@ -69,6 +72,7 @@ p {
 .parallax > use:nth-child(1) {
   animation-delay: -2s;
   animation-duration: 7s;
+  background-color: #9292e9;
 }
 .parallax > use:nth-child(2) {
   animation-delay: -3s;
@@ -150,7 +154,7 @@ label:active:after {
 .toggle-button {
     display: flex;
     align-items: center;
-    padding: 10px 16px 0 80%;
+    padding: 10px 16px 0 70%;
     margin-left: auto;
     flex-shrink: 0;
     color: white;
@@ -160,4 +164,3 @@ label:active:after {
     padding-left: 10px;
     color: white;
 }
-

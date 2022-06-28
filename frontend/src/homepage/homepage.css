@@ -24,3 +24,10 @@
     height: 100%;
     object-fit: cover;
 };
+
+.rcw-message {
+    margin: 10px !important;
+    display: flex !important;
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+}

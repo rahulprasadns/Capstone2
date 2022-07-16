@@ -25,9 +25,19 @@
     object-fit: cover;
 };
 
-.rcw-message {
+.rcw-message  {
     margin: 10px !important;
     display: flex !important;
     white-space: pre-wrap !important;
     word-wrap: break-word !important;
+}
+
+.chatbot {
+    position: fixed;
+    top: 20%;
+    right: 10px;
+}
+
+.b-agent-demo_powered_by {
+    visibility: hidden;
 }

@@ -1,16 +1,13 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import './header.css';
 
-const Header = (props) => {
-
-    useEffect(() => {console.log(props)}, [props]);
-    console.log(props);
+const Header = ({chatopen, chatopenreturn}) => {
 
     return (
         <>
             <div className="header">
                 <div className="toggle-button">
-                <p> Hello Rahul   |</p>
+                    <p> Hello User   |</p>
                     <p> Normal User </p>
                     <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
                     <p> Premium User </p>
@@ -53,18 +50,47 @@ const Header = (props) => {
                         </g>
                     </svg>
                 </div>
-
-
             </div>
-
-            <div className="content flex">
+            <>
+                <main class="page-content">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">India</h2>
+                            <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
+                            <button onClick = {() => {chatopenreturn(true);}} class="btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Brazil</h2>
+                            <p class="copy">Plan your next beach trip with these fabulous destinations</p>
+                            <button onClick = {() => {chatopenreturn(true);}} class="btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Albania</h2>
+                            <p class="copy">It's the desert you've always dreamed of</p>
+                            <button onClick = {() => {chatopenreturn(true);}} class="btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Explore The Galaxy</h2>
+                            <p class="copy">Seriously, straight up, just blast off into outer space today</p>
+                            <button onClick = {() => {chatopenreturn(true);}} class="btn">Book Now</button>
+                        </div>
+                    </div>
+                </main>
+            </>
+            <div className="content1 flex">
                 <h3>An app that changes travel and chat experience</h3>
             </div>
-            <div className="content flex">
-                <h4>{props.chatopen? 'Chat is live': ''}</h4>
+            <div className= {`content1 flex ${chatopen ? 'show-chat': 'hide-chat'}`}>
+                <h4>{chatopen ? 'Chat is live' : ''}</h4>
             </div>
             <div className="App">
-      </div>
+            </div>
         </>
     );
 }

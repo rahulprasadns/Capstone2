@@ -34,8 +34,36 @@
 
 .chatbot {
     position: fixed;
-    top: 20%;
+    top: 30%;
+    height: 80%;
     right: 10px;
+    z-index: 100;
+    align-items: right;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.chat-button {
+    position: fixed;
+    top: 90%;
+    right: 10px;
+    border: none;
+    border-radius:100%;
+    background-color: rgb(159 140 222);
+    padding: 10px;
+    height: 65px;
+    width: 65px;
+}
+
+.chatbot-iframe {
+    position: fixed;
+    top: 25%;
+    border-radius: 10%;
+    right : 10px;
+}
+
+.hide-chat {
+    display: none;
 }
 
 .b-agent-demo_powered_by {

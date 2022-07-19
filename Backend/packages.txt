@@ -6,3 +6,4 @@ flask
 gunicorn
 glob
 flask_socketio
+ortools

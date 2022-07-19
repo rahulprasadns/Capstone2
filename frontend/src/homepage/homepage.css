@@ -74,12 +74,12 @@ df-messenger {
     --df-messenger-bot-message: #9575cd;
     --df-messenger-button-titlebar-color: #c7a4ff;
     --df-messenger-chat-background-color: #fff;
-    --df-messenger-font-color: black;
+    --df-messenger-font-color: white;
     --df-messenger-send-icon: #9575cd;
     --df-messenger-user-message: #c7a4ff;
     --df-messenger-input-box-color: #c7a4ff;
-    --df-messenger-input-font-color: black;
-    --df-messenger-input-placeholder-font-color: black;
+    --df-messenger-input-font-color: white;
+    --df-messenger-input-placeholder-font-color: white;
    }
 
 

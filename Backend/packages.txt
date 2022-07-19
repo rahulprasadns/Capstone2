@@ -9,5 +9,3 @@ keras
 scipy
 spacy
 flask
-rasa-nlu
-rasa-core

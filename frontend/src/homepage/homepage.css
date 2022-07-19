@@ -69,3 +69,20 @@
 .b-agent-demo_powered_by {
     visibility: hidden;
 }
+
+df-messenger {
+    --df-messenger-bot-message: #bb92e9;
+    --df-messenger-button-titlebar-color: #9292e9;
+    --df-messenger-chat-background-color: #7bcee9;
+    --df-messenger-font-color: white;
+    --df-messenger-send-icon: #bb92e9;
+    --df-messenger-user-message: #9292e9;
+    --df-messenger-input-box-color: #9292e9;
+    --df-messenger-input-font-color: white;
+    --df-messenger-input-placeholder-font-color: white;
+   }
+
+
+#messageList {
+    overflow: hidden;
+}

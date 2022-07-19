@@ -94,7 +94,7 @@ def webhook():
                 "Sighseeings included: " + sightseeing_brazil + "\n\n"+
                 "Total price: CA$" + str(price) + "\n"+
                 "Total price with discount: CA$ "+ str(discount_price) + "\n\n" +
-                "Do you want to change something? ")
+                "Can we confirm your package?")
 
         fulfillmentText = strz
     if query_result.get('action') == 'Albania-test.Albania-test-custom':
@@ -156,7 +156,7 @@ def webhook():
                 "Sighseeings included: " + sightseeing_albania + "\n\n"+
                 "Total price: CA$" + str(price) + "\n"+
                 "Total price with discount: CA$ "+ str(discount_price) + "\n\n" +
-                "Do you want to change something? ")
+                "Can we confirm your package?")
 
         fulfillmentText = strz
     if query_result.get('action') == 'Pre-customize.Pre-customize-custom.India-custom':
@@ -219,7 +219,7 @@ def webhook():
                 "Sighseeings included: " + sightseeing_india + "\n\n"+
                 "Total price: CA$" + str(price) + "\n"+
                 "Total price with discount: CA$ "+ str(discount_price) + "\n\n" +
-                "Do you want to change something? ")
+                "Can we confirm your package?")
         fulfillmentText = strz   
     if query_result.get('action') == 'Budget.Budget-custom':
         amount = req['queryResult']['parameters'].get('amount')

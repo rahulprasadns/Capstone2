@@ -746,11 +746,11 @@ def webhook():
             "Total price: CA$ "+ str(price1) + "\n"+
             mes_dis1)
         elif amount<3000 and amount>=500:
-             option1 = (" The amount must be greater than 3000! Please enter a new value...")
+             option1 = ("The cheapest package that we have it worth 3000... Please, enter one value greater than this to continue...")
             
         options=("Please choose the best option for you and tell me \n"+ option1 +"\n"+ option2 +"\n"+ option3+"\n" + option4+"\n"+ option5+"\n"+ option6+"\n"+ option7+"\n"+option8+"\n"+option9+"\n")
         fulfillmentText=options
-        
+
     if query_result.get('action') == 'Budget.Budget-custom.Budget-custom-custom':
         budgetOptions = req['queryResult']['parameters'].get('budget_options')
         print(budgetOptions)

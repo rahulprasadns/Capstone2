@@ -49,7 +49,7 @@
     right: 10px;
     border: none;
     border-radius:100%;
-    background-color: rgb(159 140 222);
+    background-color: #4fc3f7;
     padding: 10px;
     height: 65px;
     width: 65px;
@@ -71,15 +71,15 @@
 }
 
 df-messenger {
-    --df-messenger-bot-message: #9575cd;
-    --df-messenger-button-titlebar-color: #c7a4ff;
-    --df-messenger-chat-background-color: #fff;
-    --df-messenger-font-color: white;
-    --df-messenger-send-icon: #9575cd;
-    --df-messenger-user-message: #c7a4ff;
-    --df-messenger-input-box-color: #c7a4ff;
-    --df-messenger-input-font-color: white;
-    --df-messenger-input-placeholder-font-color: white;
+    --df-messenger-bot-message: #b3e5fc;
+    --df-messenger-button-titlebar-color: #81d4fa;
+    --df-messenger-chat-background-color: #e1f5fe;
+    --df-messenger-font-color: #01579b;
+    --df-messenger-send-icon: #03a9f4;
+    --df-messenger-user-message: #bbdefb;
+    --df-messenger-input-box-color: #40c4ff;
+    --df-messenger-input-font-color: #2979ff;
+    --df-messenger-input-placeholder-font-color: #448aff ;
    }
 
 

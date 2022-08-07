@@ -43,10 +43,10 @@ const Header = ({chatopen, chatopenreturn}) => {
                             />
                         </defs>
                         <g className="parallax">
-                            <use xlinkHref="#a" x={48} fill="rgba(255,255,255,0.7" />
-                            <use xlinkHref="#a" x={48} y={3} fill="rgba(255,255,255,0.5)" />
-                            <use xlinkHref="#a" x={48} y={5} fill="rgba(255,255,255,0.3)" />
-                            <use xlinkHref="#a" x={48} y={7} fill="#fff" />
+                            <use xlinkHref="#a" x={48} fill="rgba(225, 245, 254, 0.7)" />
+                            <use xlinkHref="#a" x={48} y={3} fill="rgba(225, 245, 254, 0.5)" />
+                            <use xlinkHref="#a" x={48} y={5} fill="rgba(225, 245, 254, 0.3)" />
+                            <use xlinkHref="#a" x={48} y={7} fill="rgba(225, 245, 254, 1)" />
                         </g>
                     </svg>
                 </div>
@@ -56,21 +56,21 @@ const Header = ({chatopen, chatopenreturn}) => {
                     <div class="card">
                         <div class="content">
                             <h2 class="title">India</h2>
-                            <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
+                            <p class="copy">Check out all of these gorgeous mountain trips with beautiful historical places that you guessed and some amazing culture.</p>
                             <button onClick = {() => {chatopenreturn(true);}} class="btn">Book Now</button>
                         </div>
                     </div>
                     <div class="card">
                         <div class="content">
                             <h2 class="title">Brazil</h2>
-                            <p class="copy">Plan your next beach trip with these fabulous destinations</p>
+                            <p class="copy">Plan your next to the nature with some amazing forest lands and some beautiful coast line with like minded people around.</p>
                             <button onClick = {() => {chatopenreturn(true);}} class="btn">Book Now</button>
                         </div>
                     </div>
                     <div class="card">
                         <div class="content">
                             <h2 class="title">Albania</h2>
-                            <p class="copy">It's the desert you've always dreamed of</p>
+                            <p class="copy">Experience the horizon of climate with some beautiful monuments and beaches around with some suttle food.</p>
                             <button onClick = {() => {chatopenreturn(true);}} class="btn">Book Now</button>
                         </div>
                     </div>

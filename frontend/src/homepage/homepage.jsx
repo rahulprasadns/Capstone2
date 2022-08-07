@@ -40,7 +40,7 @@ const Homepage = () => {
                         <df-messenger
                             intent="WELCOME"
                             chat-title="Virtual Travel Agent"
-                            agent-id="447de57a-1c20-4b4e-a1ef-62c8be77a5a9"
+                            agent-id="943fb241-5b12-4157-9fd4-b1839a8bbf74"
                             theme="dark"
                             chat-icon="https://cdn-icons-png.flaticon.com/512/2728/2728212.png"
                             language-code="en">
